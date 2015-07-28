@@ -37,6 +37,15 @@ nav ul, footer ul {
     top:90px;
     left:625px;
 }
+
+a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
 a {
     text-decoration: none;
     color: #999;
