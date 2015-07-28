@@ -51,7 +51,7 @@ a.icon{
 }
 
 .navigation .item a.active{
-    background-position:0px -52px;
+    background-position:50px -52px;
 }
 .item img.circle{
     position:absolute;
