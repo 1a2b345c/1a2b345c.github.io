@@ -21,6 +21,7 @@ nav ul, footer ul {
 
 .navigation .item{
     position:absolute;
+    left: -20px;
 }
 
 .home{
