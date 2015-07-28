@@ -49,6 +49,35 @@ a.icon{
 .home a.icon{
     background:transparent url(..user.png) no-repeat 0px 0px;
 }
+
+.navigation .item a.active{
+    background-position:0px -52px;
+}
+.item img.circle{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+    opacity:0.1;
+}
+.item h2{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:18px;
+    top:0px;
+    left:52px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
 a {
     text-decoration: none;
     color: #999;
