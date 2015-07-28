@@ -46,6 +46,9 @@ a.icon{
     left:0px;
     cursor:pointer;
 }
+.home a.icon{
+    background:transparent url(..user.png) no-repeat 0px 0px;
+}
 a {
     text-decoration: none;
     color: #999;
