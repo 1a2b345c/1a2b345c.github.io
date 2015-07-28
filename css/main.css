@@ -25,12 +25,12 @@ nav ul, footer ul {
 .item p{
     list-style:none;
     position:absolute;
-    top:60px;
-    left:25px;
+    top:20px;
+    left:0px;
     display:none;
 }
 .item p a{
-    font-size:7px;
+    font-size:5px;
     text-decoration:none;
     letter-spacing:1.5px;
     text-transform:uppercase;
