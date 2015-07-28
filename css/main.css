@@ -24,18 +24,18 @@ nav ul, footer ul {
 }
 
 .home{
-    top: 300px;
-    left:90px;
+    top: 250px;
+    left:120px;
 }
 
 .about{
-    top:450px;
-    left:360px;
+    top:250px;
+    left:220px;
 }
 
 .homilies{
-    top:300px;
-    left:625px;
+    top:250px;
+    left:320px;
 }
 
 a.icon{
