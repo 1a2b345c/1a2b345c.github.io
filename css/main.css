@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-image: url("http://i.imgur.com/Kt8dRs5.jpg") center center no-repeat;
+    background-image: url("http://i.imgur.com/Kt8dRs5.jpg");
 }
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
