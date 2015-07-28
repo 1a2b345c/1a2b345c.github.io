@@ -4,7 +4,7 @@ body {
     background-image: url("http://i.imgur.com/Kt8dRs5.jpg");
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial', 'Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
