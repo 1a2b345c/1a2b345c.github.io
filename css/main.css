@@ -29,12 +29,12 @@ nav ul, footer ul {
 }
 
 .about{
-    top:50px;
+    top:450px;
     left:360px;
 }
 
 .homilies{
-    top:90px;
+    top:300px;
     left:625px;
 }
 
@@ -74,7 +74,25 @@ a.icon{
     text-shadow:1px 1px 1px #fff;
     text-transform:uppercase;
 }
+.item h3{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:-10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+
 .item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h3.active{
     color:#fff;
     text-shadow:1px 0px 1px #555;
 }
