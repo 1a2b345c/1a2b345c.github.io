@@ -22,6 +22,21 @@ nav ul, footer ul {
 .navigation .item{
     position:absolute;
 }
+
+.home{
+    top: 125px;
+    left:110px;
+}
+
+.about{
+    top:50px;
+    left:360px;
+}
+
+.homilies{
+    top:90px;
+    left:625px;
+}
 a {
     text-decoration: none;
     color: #999;
