@@ -1,8 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #b0c4de;
-    background-image: url(http://imgur.com/Kt8dRs5);
+    background-image: url("http://i.imgur.com/Kt8dRs5.jpg");
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
