@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #b0c4de;
     background-image: url(http://imgur.com/Kt8dRs5);
 }
 nav ul, footer ul {
