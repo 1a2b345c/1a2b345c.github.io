@@ -62,32 +62,32 @@ nav ul, footer ul {
 
 
 .homilies{
-    top:220px;
+    top:240px;
     left:344px;
 }
 
 .ramblings{
-    top:220px;
+    top:240px;
     left:632px;
 }
 
 .links{
-    top:220px;
+    top:240px;
     left:920px;
 }
 
 .about{
-    top:390px;
+    top:420px;
     left:200px;
 }
 
 .schedule{
-    top:390px;
+    top:420px;
     left:488px;
 }
 
 .contact{
-    top:390px;
+    top:420px;
     left:776px;
 }
 
@@ -148,7 +148,7 @@ nav ul, footer ul {
     height:52px;
     color:#222;
     font-size:25px;
-    top:-30px;
+    top:-50px;
     left:10px;
     text-indent:10px;
     line-height:52px;
