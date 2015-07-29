@@ -36,6 +36,7 @@ nav ul, footer ul {
 
 .smallnavigation .item{
     position:absolute;
+    left:25px;
 }
 .item p{
     list-style:none;
