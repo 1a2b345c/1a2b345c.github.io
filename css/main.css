@@ -20,8 +20,21 @@ nav ul, footer ul {
     font-weight: bold;
     letter-spacing: 1.4px;
 }
+.smallnavigation{
+    color:gray;
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
 
 .navigation .item{
+    position:absolute;
+}
+
+.smallnavigation .item{
     position:absolute;
 }
 .item p{
@@ -60,6 +73,10 @@ nav ul, footer ul {
     box-shadow:1px 1px 4px #666;
 }
 
+.home{
+    top: 100px;
+    left:100px;
+}
 
 .homilies{
     top:240px;
@@ -91,9 +108,54 @@ nav ul, footer ul {
     left:776px;
 }
 
+.smallabout{
+    top: 100px;
+    left: 200px;
+}
+
+.smallhomilies{
+    top:100px;
+    left:300px;
+    
+}
+
+.smallschedule{
+    top:100px;
+    left:400px;
+}
+
+.smallramblings{
+    top:100px;
+    left:500px;
+}
+
+.smalllinks{
+    top:100px;
+    left:600px;
+}
+
+.smallcontact{
+    top:100px;
+    left:700px;
+}
+
 .navigation .item a.active{
     background-position:0px -52px;
     color:white;
+}
+
+.smallnavigation .item a.active{
+    background-position:0px -52px;
+    color:white;
+}
+
+.item img.smallcircle{
+    position:absolute;
+    top:-10px;
+    left:-5px;
+    width:75px;
+    height:75px;
+    opacity:0.4;
 }
 .item img.circle{
     position:absolute;
@@ -177,6 +239,98 @@ nav ul, footer ul {
     font-size:25px;
     top:10px;
     left:5px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+
+.item h10{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h11{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h12{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h13{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h14{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h15{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h16{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:20px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
