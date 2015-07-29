@@ -105,38 +105,38 @@ nav ul, footer ul {
 }
 
 .smallhome{
-    top: 100px;
+    top: 50px;
     left:100px;
 }
 
 .smallabout{
-    top: 100px;
+    top: 50px;
     left: 250px;
 }
 
 .smallhomilies{
-    top:100px;
+    top:50px;
     left:400px;
     
 }
 .smalllinks{
-    top:100px;
+    top:50px;
     left:550px;
 }
 
 
 .smallramblings{
-    top:100px;
+    top:50px;
     left:700px;
 }
 .smallschedule{
-    top:100px;
+    top:50px;
     left:850px;
 }
 
 
 .smallcontact{
-    top:100px;
+    top:50px;
     left:1000px;
 }
 
@@ -253,7 +253,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -266,7 +266,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -279,7 +279,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -292,7 +292,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -305,7 +305,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -318,7 +318,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -331,7 +331,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:-15px;
-    left:20px;
+    left:45px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
