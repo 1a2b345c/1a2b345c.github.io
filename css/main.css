@@ -59,50 +59,38 @@ nav ul, footer ul {
 }
 
 .home{
-    top: 250px;
+    top:200px;
     left:220px;
 }
 
 .about{
-    top:250px;
+    top:200px;
     left:420px;
 }
 
 .homilies{
-    top:250px;
+    top:200px;
     left:620px;
 }
 
 .ramblings{
-    top:250px;
+    top:200px;
     left:820px;
 }
 
 .schedule{
-    top:420px;
+    top:370px;
     left:320px;
 }
 
 .links{
-    top:420px;
+    top:370px;
     left:520px;
 }
 
 .contact{
-    top:420px;
+    top:370px;
     left:770px;
-}
-
-a.icon{
-    width:52px;
-    height:52px;
-    position:absolute;
-    top:0px;
-    left:0px;
-    cursor:pointer;
-}
-.home a.icon{
-    background:transparent url(..user.png) no-repeat 0px 0px;
 }
 
 .navigation .item a.active{
@@ -144,12 +132,64 @@ a.icon{
 }
 .item h4{
     position:absolute;
-    width:147px;
+    width:300px;
     height:52px;
     color:#222;
     font-size:25px;
     top:-20px;
     left:-5px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h5{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h6{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h7{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h8{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -165,6 +205,22 @@ a.icon{
     text-shadow:1px 0px 1px #555;
 }
 .item h4.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h5.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h6.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h7.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h8.active{
     color:#fff;
     text-shadow:1px 0px 1px #555;
 }
