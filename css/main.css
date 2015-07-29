@@ -24,7 +24,8 @@ nav ul, footer ul {
 }
 .item p{
     list-style:none;
-    color:"#585858";
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     position:absolute;
     top:35px;
