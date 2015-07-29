@@ -27,7 +27,7 @@ nav ul, footer ul {
     position:absolute;
     top:20px;
     left:0px;
-    font-size:1px;
+    font-size:10px;
     display:none;
 }
 .item p a{
