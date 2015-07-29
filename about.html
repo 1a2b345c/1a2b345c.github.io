@@ -47,5 +47,38 @@
     		<ul>
 			</ul>
 		</footer>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('#smallnav > div').hover(
+		function () {
+			var $this = $(this);
+			$this.find('img').stop().animate({
+				'width'     :'140px',
+				'height'    :'140px',
+				'top'       :'-25px',
+				'left'      :'-40px',
+				'opacity'   :'1.0'
+			},500,'easeOutBack',function(){
+				$(this).parent().find('p').fadeIn(700);
+			});
+			$this.find('a:first,h10').addClass('active');
+		},
+		function () {
+			var $this = $(this);
+			$this.find('p').fadeOut(500);
+			$this.find('img').stop().animate({
+				'width'     :'75px',
+				'height'    :'75px',
+				'top'       :'-10px',
+				'left'      :'-5px',
+				'opacity'   :'0.4'
+			},5000,'easeOutBack');
+			$this.find('a:first,h10').removeClass('active');
+		}
+	);
+	});
+</script>
 	</body>
 </html>
