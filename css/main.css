@@ -61,27 +61,27 @@ nav ul, footer ul {
 }
 
 
-.about{
+.homilies{
     top:220px;
     left:344px;
 }
 
-.homilies{
+.ramblings{
     top:220px;
     left:632px;
 }
 
-.ramblings{
+.links{
     top:220px;
     left:920px;
 }
 
-.schedule{
+.about{
     top:390px;
     left:200px;
 }
 
-.links{
+.schedule{
     top:390px;
     left:488px;
 }
