@@ -63,12 +63,12 @@ nav ul, footer ul {
 
 .about{
     top:220px;
-    left:320px;
+    left:344px;
 }
 
 .homilies{
     top:220px;
-    left:620px;
+    left:632px;
 }
 
 .ramblings{
@@ -83,12 +83,12 @@ nav ul, footer ul {
 
 .links{
     top:390px;
-    left:500px;
+    left:548px;
 }
 
 .contact{
     top:390px;
-    left:800px;
+    left:776px;
 }
 
 .navigation .item a.active{
