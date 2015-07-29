@@ -30,6 +30,7 @@ nav ul, footer ul {
     position:absolute;
     top:45px;
     left:0px;
+    width: 200px;
     font-size:15px;
     display:none;
     text-align:center;
