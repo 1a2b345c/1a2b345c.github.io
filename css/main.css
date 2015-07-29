@@ -73,10 +73,6 @@ nav ul, footer ul {
     box-shadow:1px 1px 4px #666;
 }
 
-.home{
-    top: 100px;
-    left:100px;
-}
 
 .homilies{
     top:240px;
@@ -108,35 +104,40 @@ nav ul, footer ul {
     left:776px;
 }
 
+.home{
+    top: 100px;
+    left:200px;
+}
+
 .smallabout{
     top: 100px;
-    left: 200px;
+    left: 350px;
 }
 
 .smallhomilies{
     top:100px;
-    left:300px;
+    left:500px;
     
 }
-
-.smallschedule{
+.smalllinks{
     top:100px;
-    left:400px;
+    left:650px;
 }
+
 
 .smallramblings{
     top:100px;
-    left:500px;
+    left:800px;
+}
+.smallschedule{
+    top:100px;
+    left:950px;
 }
 
-.smalllinks{
-    top:100px;
-    left:600px;
-}
 
 .smallcontact{
     top:100px;
-    left:700px;
+    left:1100px;
 }
 
 .navigation .item a.active{
