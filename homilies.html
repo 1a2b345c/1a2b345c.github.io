@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Homilies</title>
+		<title>About</title>
                 <!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/homilies">Homilies</a></li>
-        		<li><a href="/blog">Ramblings</a></li>
-        		<li><a href="/cv">Schedule</a></li>
-        		<li><a href="/cv">Contact</a></li>
-        		<li><a href="/cv">Other Links</a></li>
+		<div class= "smallnavigation" id="smallnav">
+		<div class="item smallhome">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/" class="icon"><h10>Home</h10></a>
+    		</div>	
+    		<div class="item smallabout">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/about" class="icon"><h11>About</h11></a>
+    		</div>
+    		<div class="item smallhomilies">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/homilies" class="icon"><h12>Homilies</h12></a>
+    		</div>
+    		<div class="item smallramblings">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/ramblings" class="icon"><h13>Ramblings</h13></a>
+    		</div>
+    		<div class="item smalllinks">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/links" class="icon"><h14>Links</h14></a>
+    		</div>
+    		<div class="item smallschedule">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/schedule" class="icon"><h15>Schedule</h15></a>
+    		</div>
+    		<div class="item smallcontact">
+		<img src="bg_user.png" alt="" width="199" height="199" class="smallcircle"/>
+		<a href="/contact" class="icon"><h16>Contact</h16></a>
+    		</div>
 
-    		</ul>
-		</nav>
+    		
+    		</div>
 		<div class="container">
-    		<div class="blurb">
+    		<div class="blurb"><br><br><br><br><br>
         		<h1>Homilies</h1>
-		<section>
-      <audio controls="controls">
+			<p>Audio files of homilies I've given</p>
+			<section>
+	 <audio controls="controls">
         <source src= "apostles.MP3"></source>
         <source src= "apostles.ogg"></source>
         sorry
@@ -37,12 +58,44 @@
         <source src="sower.ogg"></source>
         
       </audio>
-    </section>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
     		<ul>
 			</ul>
 		</footer>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('#smallnav > div').hover(
+		function () {
+			var $this = $(this);
+			$this.find('img').stop().animate({
+				'width'     :'140px',
+				'height'    :'140px',
+				'top'       :'-25px',
+				'left'      :'40px',
+				'opacity'   :'1.0'
+			},500,'easeOutBack',function(){
+				$(this).parent().find('p').fadeIn(700);
+			});
+			$this.find('a:first,h10').addClass('active');
+		},
+		function () {
+			var $this = $(this);
+			$this.find('p').fadeOut(500);
+			$this.find('img').stop().animate({
+				'width'     :'75px',
+				'height'    :'75px',
+				'top'       :'-10px',
+				'left'      :'45px',
+				'opacity'   :'0.4'
+			},5000,'easeOutBack');
+			$this.find('a:first,h10').removeClass('active');
+		}
+	);
+	});
+</script>
 	</body>
 </html>
