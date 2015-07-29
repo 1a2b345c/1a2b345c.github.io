@@ -162,7 +162,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:10px;
-    left:10px;
+    left:-5px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
@@ -175,7 +175,7 @@ nav ul, footer ul {
     color:#222;
     font-size:25px;
     top:10px;
-    left:10px;
+    left:0px;
     text-indent:10px;
     line-height:52px;
     text-shadow:1px 1px 1px #fff;
