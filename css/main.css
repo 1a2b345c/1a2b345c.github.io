@@ -218,7 +218,7 @@ h1 {
     font-size: 3em;
     font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    position:center;
+    text-align:center;
 
     
 }
