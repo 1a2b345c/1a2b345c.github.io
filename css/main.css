@@ -93,6 +93,7 @@ nav ul, footer ul {
 
 .navigation .item a.active{
     background-position:0px -52px;
+    color:white;
 }
 .item img.circle{
     position:absolute;
@@ -183,7 +184,7 @@ nav ul, footer ul {
 }
 
 .item h3.active{
-    color:#fff;
+    color:white;
     text-shadow:1px 0px 1px #555;
 }
 .item h4.active{
