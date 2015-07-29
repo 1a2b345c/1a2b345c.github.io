@@ -58,29 +58,25 @@ nav ul, footer ul {
     box-shadow:1px 1px 4px #666;
 }
 
-.home{
-    top:220px;
-    left:220px;
-}
 
 .about{
     top:220px;
-    left:420px;
+    left:320px;
 }
 
 .homilies{
     top:220px;
-    left:620px;
+    left:520px;
 }
 
 .ramblings{
     top:220px;
-    left:820px;
+    left:920px;
 }
 
 .schedule{
     top:390px;
-    left:320px;
+    left:120px;
 }
 
 .links{
@@ -104,19 +100,7 @@ nav ul, footer ul {
     height:130px;
     opacity:0.1;
 }
-.item h2{
-    position:absolute;
-    width:300px;
-    height:52px;
-    color:#222;
-    font-size:25px;
-    top:-10px;
-    left:10px;
-    text-indent:10px;
-    line-height:52px;
-    text-shadow:1px 1px 1px #fff;
-    text-transform:uppercase;
-}
+
 .item h3{
     position:absolute;
     width:300px;
@@ -196,10 +180,6 @@ nav ul, footer ul {
     text-transform:uppercase;
 }
 
-.item h2.active{
-    color:#fff;
-    text-shadow:1px 0px 1px #555;
-}
 .item h3.active{
     color:#fff;
     text-shadow:1px 0px 1px #555;
