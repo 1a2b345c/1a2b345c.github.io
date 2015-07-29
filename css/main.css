@@ -60,32 +60,32 @@ nav ul, footer ul {
 
 .home{
     top: 250px;
-    left:270px;
+    left:220px;
 }
 
 .about{
     top:250px;
-    left:470px;
+    left:420px;
 }
 
 .homilies{
     top:250px;
-    left:670px;
+    left:620px;
 }
 
 .ramblings{
     top:250px;
-    left:870px;
+    left:820px;
 }
 
 .schedule{
-    top:450px;
-    left:370px;
+    top:350px;
+    left:320px;
 }
 
 .links{
-    top:450px;
-    left:570px;
+    top:350px;
+    left:520px;
 }
 
 .contact{
