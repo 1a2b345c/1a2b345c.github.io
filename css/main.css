@@ -78,17 +78,17 @@ nav ul, footer ul {
 
 .schedule{
     top:390px;
-    left:170px;
+    left:200px;
 }
 
 .links{
     top:390px;
-    left:470px;
+    left:500px;
 }
 
 .contact{
     top:390px;
-    left:770px;
+    left:800px;
 }
 
 .navigation .item a.active{
@@ -135,7 +135,7 @@ nav ul, footer ul {
     height:52px;
     color:#222;
     font-size:25px;
-    top:-10px;
+    top:-30px;
     left:10px;
     text-indent:10px;
     line-height:52px;
@@ -148,7 +148,7 @@ nav ul, footer ul {
     height:52px;
     color:#222;
     font-size:25px;
-    top:-10px;
+    top:-30px;
     left:10px;
     text-indent:10px;
     line-height:52px;
@@ -161,7 +161,7 @@ nav ul, footer ul {
     height:52px;
     color:#222;
     font-size:25px;
-    top:-10px;
+    top:10px;
     left:10px;
     text-indent:10px;
     line-height:52px;
@@ -174,7 +174,7 @@ nav ul, footer ul {
     height:52px;
     color:#222;
     font-size:25px;
-    top:-10px;
+    top:10px;
     left:10px;
     text-indent:10px;
     line-height:52px;
