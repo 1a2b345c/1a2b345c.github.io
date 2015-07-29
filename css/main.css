@@ -60,17 +60,37 @@ nav ul, footer ul {
 
 .home{
     top: 250px;
-    left:120px;
+    left:270px;
 }
 
 .about{
     top:250px;
-    left:320px;
+    left:470px;
 }
 
 .homilies{
     top:250px;
-    left:520px;
+    left:670px;
+}
+
+.ramblings{
+    top:250px;
+    left:870px;
+}
+
+.schedule{
+    top:450px;
+    left:370px;
+}
+
+.links{
+    top:450px;
+    left:570px;
+}
+
+.contact{
+    top:450px;
+    left:770px;
 }
 
 a.icon{
